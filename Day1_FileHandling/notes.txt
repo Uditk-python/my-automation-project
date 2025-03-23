@@ -1,0 +1,34 @@
+___________________________________________________________________________
+|     Function	        |         Purpose                                 |
+|open("file.txt", "r")	|Opens a file in read mode                        |
+|open("file.txt", "w")	|Opens a file in write mode (overwrites content)  |
+|open("file.txt", "a")	|Opens a file in append mode (adds content)       |
+|open("file.txt", "r+")	|Opens a file for both reading & writing          |
+|with open(...)	Ensures |proper closing of the file                       |
+|_______________________|_________________________________________________|
+
+☑️opening a file:
+  ✅file_object=open('file_name',"r")
+     fole_object.close
+  ✅with open("file_name","r")
+
+1)Reading a File :
+  ✅read - fileobject.read(n)  where n refers to number to bytes
+  ✅readline - fileobject.readline(n)  where n refers to number to bytes
+  ✅readlines - fileobject.readlines()  returns all the lines in the file
+2)Writing or Appending a File
+  ✅write-fileobject.write(content)  where content refers to content to be added in file
+  ✅writelines-fileobject.writelie(content)  where content refers to list of lines to be added in file
+⛏️main difference between writing and appending is writing will overwrite while append will add in file
+
+
+
+
+
+☑️ OS MODEL:
+  import os
+then use os fumctions
+✅os.getcwd():give the location of current directory
+✅os.listdirs():give list of directories in the directory
+✅os.makedirs("hello"):make the directories in location name hello
+✅os.removedirs():remove the dirs from cureent location
