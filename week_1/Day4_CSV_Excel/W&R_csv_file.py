@@ -21,6 +21,6 @@ with open(path,"w",newline='') as wf:
     for i in range(k):
         lis=[]
         for j in headrow:
-            o=input("Enter the "+j+":")
+            o=input("Enter the ",j,":")
             lis.append(o)
         csv_writer.writerow(lis)
