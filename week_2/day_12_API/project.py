@@ -1,6 +1,7 @@
 import requests
+api_key=input("enter the api key")
 header={
-    "x-api-key":"65fd8429e3c8903923750d5df9d4b5f5"
+    "x-api-key":api_key
 }
 city_name=input("enter the name of city to gget weather")
 url=f"https://api.openweathermap.org/data/2.5/weather?q={city_name}"
