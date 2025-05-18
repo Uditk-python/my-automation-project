@@ -51,7 +51,7 @@ This week focuses on mastering data extraction using **BeautifulSoup**, **Seleni
 # 🔧 How to Run the Scripts:
 1. Clone this repository:
    ```bash
-   git clone https://github.com/Uditk-python/Python-Automation.git
+   git clone https://github.com/Uditk-python/my-automation-project
 ✅ Contribution:
    Feel free to suggest improvements or add new automation scripts. 
 =======
