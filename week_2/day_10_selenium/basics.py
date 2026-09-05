@@ -18,5 +18,4 @@ with open("udit.txt","w",encoding="utf-8") as wf:
             wf.write(name+"-"+price+link)
             wf.write("\n")
             break
-    # # print(elem.text)
 driver.close()
